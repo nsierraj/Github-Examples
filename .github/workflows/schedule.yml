@@ -1,3 +1,4 @@
+name: 'Run every 2 minutes on schedule'
 on:
   schedule:
     - cron: '*/2 * * * *'
