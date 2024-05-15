@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "Hello World"
-        run:  echo "Hello World!" + github.repository
+        run:  echo "Hello World! $GITHUB_CONTEXT"
   goodbye-moon:
     runs-on: ubuntu-latest
     steps:
