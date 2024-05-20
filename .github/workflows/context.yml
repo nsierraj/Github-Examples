@@ -10,5 +10,6 @@ jobs:
               run: |
                 echo "Hello $MY_ACTION"
                 echo "Hello ${{ github.actor }}"
+                echo "to JSON ${{ toJson(github) }}"
               env:
                 MY_ACTION: ${{ github.action }}
